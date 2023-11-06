@@ -22,7 +22,9 @@ fetchkey(props.letter)
 ,[]); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className={`drum ${playing ? "playing" : ""}`} onClick={playhandler} >
-        <div className="key" >{props.letter}</div>
+        <div className="key" >{props.letter}
+        <div className="drumName">{props.name}</div>
+        </div>
     </div>
   )
 }

@@ -53,7 +53,7 @@ function App() {
       <h1>React Drumkit</h1>
       <div className="drum-grid">
       {sounds.map((sound) => (
-        <Drum letter={sound.key} sound={sound.sound} />
+        <Drum letter={sound.key} sound={sound.sound} name={sound.name} />
       )
       )}
       </div>
