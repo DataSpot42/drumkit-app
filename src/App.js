@@ -49,6 +49,7 @@ function App() {
   ])
   console.log(sounds)
   return (
+    <div style={{ width: "35rem" }}>
     <div className="App">
       <h1>React Drumkit</h1>
       <div className="drum-grid">
@@ -57,6 +58,7 @@ function App() {
       )
       )}
       </div>
+    </div>
     </div>
   );
 }

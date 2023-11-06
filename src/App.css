@@ -10,8 +10,8 @@ grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 5rem;
+  margin-right: 2rem;
+  padding: 2rem;
 }
 .drum {
   
@@ -42,7 +42,7 @@ margin-left: 1rem;
 .drumName {
   font-size: 1.6rem ;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .drum-grid {
     display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -51,7 +51,7 @@ margin-left: 1rem;
   grid-row-gap: 0px;
   margin-left: 1rem;
     margin-right: 1rem;
-    padding: 5rem;
+    padding: 1rem;
   }
 
 }
